@@ -7,7 +7,9 @@ authors = [
     { name = "Yun Zhou", email = "yun.zhou@mcmaster.ca" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "streamlit>=1.64.0",
+]
 
 [project.scripts]
 randselect = "randselect.cli:main"
